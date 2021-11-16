@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             NavigationLink(destination: ModalView()) {
-                Text("go next")
+                Text("go next level")
             }
             .navigationTitle("Xcode and git")
         }
